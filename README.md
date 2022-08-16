@@ -10,6 +10,8 @@ Difficulties Ran Into
 
 
 How to Run Program in VS Code
+
+
 Type in clang++ -std=c++20 -Iincludes ./src/main.cc ./src/connect4.cc and then ./a.out
 
 ScreenShots
