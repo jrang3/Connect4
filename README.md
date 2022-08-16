@@ -9,6 +9,9 @@ Difficulties Ran Into
 - Unlike the Tic-Tac-Toe game whenever the user chooses a column to place a disk in, the disk should be placed at the bottom row. In tic-tac-toe, the user chooses whatever position they like. I at first had difficulty in accomplishing this. In order to resolve the issue, what I did was have a vector that would hold the highest value row for each column. Every time the user wants to place a disk in a particular row, the position of the column is used to get the value in that vector. Then I would subtract that value in the vector by 1. I would then be able to use this info to also determine if a row has been full and alert the user to choose a different row. For example if I had a 6 by 5 board (6 rows and 5 columns). I would have a vector of holding 5 5’s. All of them would be 5 since that’s the largest row index, and there 5 of them since there are 5 columns. Then when the user selects a specific column to place a disk in I would use that specific column value as an index for the vector and get that specific 5 as row index value. I would then use these two values to update the board, placing the disk there. Then I would subtract that 5 by 1 indicating that for that specific row row index 5 is no longer available. Thus they would place the disk in row 4. Once the value got -1, the column becomes full. 
 
 
+How to Run Program in VS Code
+Type in clang++ -std=c++20 -Iincludes ./src/main.cc ./src/connect4.cc and then ./a.out
+
 ScreenShots
 
 This represents the start of the game. The user enters in the width and the height of the board they desire to play on.
