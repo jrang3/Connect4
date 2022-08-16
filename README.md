@@ -15,12 +15,22 @@ This represents the start of the game. The user enters in the width and the heig
 <img width="692" alt="Beginning" src="https://user-images.githubusercontent.com/87880723/184972966-f84c6524-1abf-4f58-bc6a-a2eac22d3458.png">
 
 
+
+
+
 This represents an occurence of X winning the Game 
 
 <img width="445" alt="X Winning" src="https://user-images.githubusercontent.com/87880723/184973083-97986ab8-d951-4fdf-bb7a-c952074d1a19.png">
 
+
+
+
+
 This represents an occurence of O winning the Game
 <img width="366" alt="O Winning" src="https://user-images.githubusercontent.com/87880723/184973169-3d06c3ff-5d17-42de-b37d-eed1307060ee.png">
+
+
+
 
 
 This image represents a message being printed out to let the user know that a specific column is filled up in the event the user tries to place a disk in a filled up column
